@@ -10,6 +10,20 @@ package Navios;
  *
  * @author jrafa
  */
-public class Petroleiro {
-    
+    public class Petroleiro extends Navio {
+
+    private float carga;
+
+    public Petroleiro(String matricula) {
+        super(matricula);
+    }
+
+    public float getCarga() {
+        return carga;
+    }
+
+    public void setCarga(float carga) {
+        this.carga = carga;
+    }
+
 }
