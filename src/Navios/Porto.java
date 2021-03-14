@@ -91,7 +91,7 @@ public class Porto {
 
         Petroleiro petro1 = new Petroleiro("P1"); petro1.setCarga(200);
 
-        PortaContentores pConta1 = new PortaContentores("PC01"); pConta1.setNoContentores(50);
+        PortaContentores pConta1 = new PortaContentores("PC01"); pConta1.setNoContentores(150);
 
         PortaContentores pConta2 = new PortaContentores("PC02"); pConta2.setNoContentores(20);
 
