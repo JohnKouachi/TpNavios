@@ -21,7 +21,11 @@ public class Porto {
 
     ArrayList<Navio> navio;
 
-
+    /**
+     *
+     * construtor
+     * @param noMaxNavios
+     */
     public Porto(int noMaxNavios) {
         ct = 0;
         this.noMaxNavios = noMaxNavios;
@@ -29,12 +33,18 @@ public class Porto {
         navio = new ArrayList<Navio>(noMaxNavios);
     }
 
+    /**
+     *gets 
+     * @return
+     */
     public int getNoMaxNavios() {
         return noMaxNavios;
     }
 
-
-
+    /**
+     * Metedo para adicionar navios
+     * @param n
+     */
     public void addNavio(Navio n) {
 
         if (ct == noMaxNavios) {
@@ -56,6 +66,10 @@ public class Porto {
 
     }
 
+    /**
+     *Get da capacidade total
+     * @return
+     */
     public int getCapacidadeTotal() {
 
         int total = 0;
@@ -69,6 +83,10 @@ public class Porto {
         return total;
     }
 
+    /**
+     *Get da carga total
+     * @return
+     */
     public int getCargaTotal() {
         int total = 0;
         for (Navio p : navio) {
@@ -86,6 +104,11 @@ public class Porto {
 
 
 //main
+
+    /**
+     *Main
+     * @param args
+     */
     public static void main(String[] args) {
         Porto porto = new Porto(3);
 

@@ -14,14 +14,27 @@ package Navios;
 
     private float carga;
 
+    /**
+     *
+     * Construtos
+     * @param matricula
+     */
     public Petroleiro(String matricula) {
         super(matricula);
     }
 
+    /**
+     *Gets e sets
+     * @return
+     */
     public float getCarga() {
         return carga;
     }
 
+    /**
+     *
+     * @param carga
+     */
     public void setCarga(float carga) {
         this.carga = carga;
     }

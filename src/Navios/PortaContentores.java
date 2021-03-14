@@ -14,14 +14,26 @@ public class PortaContentores extends Navio {
 
     private int noContentores;
 
+    /**
+     *Construtor
+     * @param matricula
+     */
     public PortaContentores(String matricula) {
         super(matricula);
     }
 
+    /**
+     *Gets e sets
+     * @return
+     */
     public int getNoContentores() {
         return noContentores;
     }
 
+    /**
+     *
+     * @param noContentores
+     */
     public void setNoContentores(int noContentores) {
         this.noContentores = noContentores;
     }
